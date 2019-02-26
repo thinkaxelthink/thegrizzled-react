@@ -1,0 +1,15 @@
+@import "@material/card/mdc-card";
+@import "@material/typography/mdc-typography";
+
+.trials-card {
+  width: 17rem;
+}
+
+.trials-card__primary {
+  padding: 1rem;
+}
+
+.trials-card--gas-rain {
+  background-image: url("/images/card.png");
+  height: 24rem;
+}

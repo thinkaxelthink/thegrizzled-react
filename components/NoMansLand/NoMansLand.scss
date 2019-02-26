@@ -1,0 +1,10 @@
+@import "@material/image-list/mdc-image-list";
+@import "@material/layout-grid/mdc-layout-grid";
+
+.nomansland {
+  @include mdc-image-list-standard-columns(8);
+
+  border: 7px solid #727272;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 2rem;
+}
